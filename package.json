@@ -1,0 +1,90 @@
+{
+  "_from": "git+https://github.com/CommerciumBlockchain/node-stratum-pool.git",
+  "_id": "stratum-pool@0.1.6",
+  "_inBundle": false,
+  "_integrity": "sha1-ISp37PmLo5DP+iPtj8AmbsNnaCk=",
+  "_location": "/stratum-pool",
+  "_phantomChildren": {
+    "bech32": "1.1.3",
+    "bigi": "1.4.2",
+    "bindings": "1.3.0",
+    "bip66": "1.1.5",
+    "bitcoin-ops": "1.4.0",
+    "bs58check": "2.1.1",
+    "create-hash": "1.1.3",
+    "create-hmac": "1.1.6",
+    "ecurve": "1.0.6",
+    "nan": "2.8.0",
+    "node-gyp": "3.6.2",
+    "pushdata-bitcoin": "1.0.1",
+    "randombytes": "2.0.5",
+    "safe-buffer": "5.1.1",
+    "typeforce": "1.12.0",
+    "varuint-bitcoin": "1.0.4",
+    "wif": "2.0.6"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "stratum-pool@git+https://github.com/CommerciumBlockchain/node-stratum-pool.git",
+    "name": "stratum-pool",
+    "escapedName": "stratum-pool",
+    "rawSpec": "git+https://github.com/CommerciumBlockchain/node-stratum-pool.git",
+    "saveSpec": "git+https://github.com/CommerciumBlockchain/node-stratum-pool.git",
+    "fetchSpec": "https://github.com/CommerciumBlockchain/node-stratum-pool.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/CommerciumBlockchaino/node-stratum-pool.git#d87f7f2ddd13e5ec4ee7d3d6403e16060e81fb68",
+  "_spec": "stratum-pool@git+https://github.com/CommerciumBlockchain/node-stratum-pool.git",
+  "_where": "/home/hellomoto/cmmpool/cmm-node-stratum",
+  "author": {
+    "name": "Matthew Little"
+  },
+  "bugs": {
+    "url": "https://github.com/CommerciumBlockchain/node-stratum-pool/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "vekexasia"
+    },
+    {
+      "name": "TheSeven"
+    }
+  ],
+  "dependencies": {
+    "async": "*",
+    "base58-native": "*",
+    "bignum": "*",
+    "bitcoinjs-lib-zcash": "git+https://github.com/runn1ng/bitcoinjs-lib.git#zcash",
+    "equihashverify": "git+https://github.com/joshuayabut/equihashverify.git",
+    "merkle-bitcoin": "git+https://github.com/joshuayabut/merkle-bitcoin.git",
+    "promise": "*"
+  },
+  "deprecated": false,
+  "description": "High performance Stratum poolserver in Node.js",
+  "engines": {
+    "node": ">=7"
+  },
+  "homepage": "https://github.com/CommerciumBlockchain/node-stratum-pool",
+  "keywords": [
+    "stratum",
+    "mining",
+    "pool",
+    "server",
+    "poolserver",
+    "bitcoin",
+    "litecoin",
+    "scrypt"
+  ],
+  "license": "GPL-2.0",
+  "main": "lib/index.js",
+  "name": "stratum-pool",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CommerciumBlockchain/node-stratum-pool.git"
+  },
+  "version": "0.1.6"
+}
